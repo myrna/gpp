@@ -26,7 +26,6 @@
       
       <p><?php echo form_submit('submit', 'Login');?></p>
 
-      
-    <?php echo form_close();?>
+          <?php echo form_close();?>
 
 </div>

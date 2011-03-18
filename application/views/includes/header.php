@@ -6,4 +6,5 @@
 	<title></title>
 </head>
 <body>
-    
+    <a href="/auth/login/">Login</a>
+    <a href="/plantdata/">Plant Data</a>
