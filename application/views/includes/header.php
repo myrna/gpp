@@ -6,10 +6,10 @@
 	<title></title>
 </head>
 <body>
-<?php if ($logged_in) {?>
+<?php if ($logged_in) :?>
   <a href="/auth/logout/">Logout</a>
-<?php } else { ?>
+<?php else :  ?>
   <a href="/auth/login/">Login</a>
-<?php }?>
+<?php endif ?>
 
 <a href="/plantdata/">Plant Data</a>
